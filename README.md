@@ -1,4 +1,6 @@
 # Qwen-LLM-Enhanced-Conversational-capabilities
+[Click here to view the Colab Notebook](https://colab.research.google.com/drive/1hMhh30gXnDivBS2cnpXVLy9W8Et--Ip6?usp=sharing)
+
 Qwen2.5 Fine-Tuning with LoRA
 
 This project demonstrates how to fine-tune the [Qwen2.5 language model](https://huggingface.co/Qwen) using **LoRA** (Low-Rank Adaptation) with PEFT, saving both the **LoRA adapter** and the **full model**, and evaluating responses with a human-readable prompt.
