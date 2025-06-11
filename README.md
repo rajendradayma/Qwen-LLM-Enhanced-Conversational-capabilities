@@ -99,8 +99,8 @@ model = PeftModel.from_pretrained(base_model, "./qwen2.5-lora-adapter")
 
 # Tokenizer
 tokenizer = AutoTokenizer.from_pretrained("./qwen2.5-lora-adapter")
-📜 License
-MIT License
+
+
 
 ✨ Acknowledgments
 Transformers by HuggingFace
