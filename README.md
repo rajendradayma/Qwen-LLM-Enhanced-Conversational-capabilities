@@ -101,6 +101,8 @@ model = PeftModel.from_pretrained(base_model, "./qwen2.5-lora-adapter")
 tokenizer = AutoTokenizer.from_pretrained("./qwen2.5-lora-adapter")
 
 # Weights & Biases Run
+![image](https://github.com/user-attachments/assets/9f9b98ed-774c-4431-990b-9261196600f8)
+
 View the complete training metrics and experiment trace here:
 https://wandb.ai/0105cs221167-fresher/huggingface/runs/3um7y2kj?nw=nwuser0105cd201040
 
