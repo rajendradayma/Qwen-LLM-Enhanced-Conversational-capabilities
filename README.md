@@ -42,17 +42,18 @@ Loss: Reduced from ~4.7 to ~2.3 over 10 epochs
 peft_path = "./qwen2.5-lora-adapter"
 model.save_pretrained(peft_path)
 tokenizer.save_pretrained(peft_path)
+
+
 ✅ Save Full Model with Adapter
 
 full_model_path = "./qwen2.5-lora-full"
 model.base_model.save_pretrained(full_model_path)
 tokenizer.save_pretrained(full_model_path)
+
+
 🧪 Human Evaluation Prompt
 You can test how well your model responds using a human-readable prompt:
 
-python
-Copy
-Edit
 example = "<|im_start|>user\nHow do I improve my Python skills?<|im_end|>\n<|im_start|>assistant\n"
 
 input_ids = tokenizer(example, return_tensors="pt").to(model.device)
