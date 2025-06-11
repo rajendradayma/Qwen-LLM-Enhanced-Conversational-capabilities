@@ -127,5 +127,5 @@ Author: Rajendra Dayma
 
 Email: rajendradayma03@gmail.com
 
-LinkedIn: linkedin.com/in/rajendra-dayma
+LinkedIn: [linkedin.com/in/rajendra-dayma](https://www.linkedin.com/in/rajendra-dayma/)
 
