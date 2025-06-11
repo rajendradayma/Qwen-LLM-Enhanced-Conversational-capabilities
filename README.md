@@ -34,16 +34,12 @@ Loss: Reduced from ~4.7 to ~2.3 over 10 epochs
 
 💾 Saving Models
 ✅ Save LoRA Adapter
-python
-Copy
-Edit
+
 peft_path = "./qwen2.5-lora-adapter"
 model.save_pretrained(peft_path)
 tokenizer.save_pretrained(peft_path)
 ✅ Save Full Model with Adapter
-python
-Copy
-Edit
+
 full_model_path = "./qwen2.5-lora-full"
 model.base_model.save_pretrained(full_model_path)
 tokenizer.save_pretrained(full_model_path)
@@ -69,11 +65,11 @@ response = tokenizer.decode(output[0], skip_special_tokens=False)
 print(response.split("<|im_start|>assistant\n")[-1].split("<|im_end|>")[0])
 Rate the response for:
 
-✅ Relevance
+ Relevance
 
-✅ Coherence
+ Coherence
 
-✅ Helpfulness
+ Helpfulness
 On a scale of 1–5 stars ⭐️
 
 📥 Downloading Models from Google Colab
