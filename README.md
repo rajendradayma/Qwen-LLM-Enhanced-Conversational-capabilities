@@ -131,7 +131,7 @@ CUDA
 # Contact
 Author: Rajendra Dayma
 
-Email: rajendradayma03@gmail.com
+Email: rajendradayma88@gmail.com
 
 LinkedIn: [linkedin.com/in/rajendra-dayma](https://www.linkedin.com/in/rajendra-dayma/)
 
